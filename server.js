@@ -7,13 +7,13 @@ const {
   deleteUsuario,
 } = require("./controllers/usuario.controllers");
 const {
-  createRol,
-  getAllRoles,
-  getRolById,
-  updateRol,
-  deleteRol,
-} = require("./controllers/rol.controllers");
-const { Usuario, Rol } = require("./models/tables");
+  createPedido,
+  getAllPedidos,
+  getPedidoById,
+  updatePedido,
+  deletePedido,
+} = require("./controllers/pedido.controllers");
+const { Usuario, Pedido } = require("./models/tables");
 
 //Ejemplos de transacciones
 const main = async () => {
